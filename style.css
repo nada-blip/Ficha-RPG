@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black; /* Cor de fundo */
+    font-size: 20px; /* Tamanho da Fonte */
+}
+
+.topo {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner-topo {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    width: 900px;
+    height: 150px;
+}
+
+.conteiner-topo > div {
+    padding: 10px;
+}
+
+.conteiner-topo > div p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.conteiner-topo > div input {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
